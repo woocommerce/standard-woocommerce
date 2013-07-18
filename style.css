@@ -1,0 +1,31 @@
+/*
+Theme Name: Standard woocommerce
+Theme URI: https://github.com/eightbit/standard-woocommerce
+Version: 1.0
+Description: WooCommerce compatible child theme
+Author: 8BIT
+Author URI: http://8bit.io
+Author Email: sales@8bit.io
+License: GNU General Public License v3.0 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: standard
+*/
+
+/* Import Standard Styles
+---------------------------------------------------------------------------------- */
+@import url('../standard/style.css');
+
+
+/* Tweaks
+---------------------------------------------------------------------------------- */
+.single-product .quantity .minus {
+	bottom: 9px;
+}
+
+.product .thumbnails {
+	margin-left: 0;
+}
+
+#reviews #comments {
+	padding: 20px;
+}
